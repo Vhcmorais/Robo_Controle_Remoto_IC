@@ -38,7 +38,8 @@ Este repositório documenta o **Robô de Controle Remoto via Aplicativo**, que p
 | Arquivo | Descrição |
 |----------|------------|
 | `roboControleRemoto.ino` | Código-fonte principal desenvolvido na Arduino IDE |
-| `schemaRoboControleRemoto.png` | Esquema elétrico do circuito de montagem do robô |
+| `schemaRoboControleRemoto.jpg` | Esquema elétrico do circuito de montagem do robô |
+| `./images` | Pasta com as imagens usadas neste README |
 
 ---
 
