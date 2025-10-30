@@ -1,32 +1,72 @@
-# 🎮 Robô de Controle Remoto via App Mobile - Iniciação Científica UFU (2025)
+# 🎮 Robô de Controle Remoto via App Mobile — Iniciação Científica UFU (2025)
 
-🤖 Este repositório hospeda um dos meus projetos, realizado para solução de demanda a partir de proposta pela professora orientadora da minha iniciação científica, realizada no **Laboratório de Automação, Sistemas Eletrônicos e Controle da Universidade Federal de Uberlândia**, UFU. 
+🤖 Este repositório apresenta um dos projetos desenvolvidos durante minha **Iniciação Científica** no **Laboratório de Automação, Sistemas Eletrônicos e Controle da Universidade Federal de Uberlândia (UFU)**.  
+O trabalho foi realizado a partir de uma proposta orientada pela professora responsável pela pesquisa.
 
 ---
 
 ## 💡 Sobre o Projeto
 
-A Iniciação Científica tinha como tema: *"Desenvolvimento de Robôs Inteligentes: do Sumô Autônomo ao Controle via Aplicativo"*. A pesquisa tinha como objetivo o desenvolvimento de 3 diferentes tipos de robôs autônomos que fossem de simples montagem e, ao mesmo tempo, fossem dinâmicos já que o intuito era o desenvolvimento visando capacitar professores da rede estadual de ensino para executarem a montagem desses robôs com seus alunos do novo ensino médio, já que eles recebem materiais para desenvolver esses robôs.  
+A Iniciação Científica teve como tema:  
+> *"Desenvolvimento de Robôs Inteligentes: do Sumô Autônomo ao Controle via Aplicativo"*
 
-Este projeto se trata de um robô controlado remotamente via aplicativo, que conta com algumas funções para acrescentar dinamismo ao robô. Ele foi desenvolvido utilizando como componentes: 
-- 1 controlador Arduíno UNO;
-- 1 ponte H L298N;
-- 1 módulo bluetooth HC-05;
-- 1 botão liga/desliga;
-- 1 módulo buzzer ativo 5V;
-- 1 suporte 4 pilhas;
-- 2 motores DC com rodas.
-  
-E o objetivo era um robô controlado pelo software mobile Dabble, que já possui biblioteca para o software Arduino IDE.
+O objetivo central da pesquisa foi desenvolver **três tipos de robôs autônomos** de **fácil montagem** e **alta dinamicidade**, voltados à **capacitação de professores da rede estadual de ensino**.  
+A ideia era permitir que os docentes pudessem montar e programar os robôs junto a seus alunos do novo ensino médio, utilizando os kits de materiais já disponibilizados pelas escolas.
+
+Este repositório documenta o **Robô de Controle Remoto via Aplicativo**, que possui funções dinâmicas e é controlado remotamente através do software **Dabble** — compatível com o **Arduino IDE** por meio de sua biblioteca oficial.
+
+### 🔧 Componentes Utilizados
+- 1 × Controlador **Arduino UNO**  
+- 1 × Ponte H **L298N**  
+- 1 × Módulo **Bluetooth HC-05**  
+- 1 × **Botão** liga/desliga  
+- 1 × **Módulo buzzer** ativo 5V  
+- 1 × **Suporte** para 2 baterias de lítio 3.7V  
+- 2 × **Motores DC** com rodas  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [Arduíno IDE](https://www.arduino.cc/en/software/)
-- [Arduíno Docs - Dabble](https://docs.arduino.cc/libraries/dabble/)
-- Github
+- [Arduino IDE](https://www.arduino.cc/en/software/)
+- [Arduino Docs — Dabble Library](https://docs.arduino.cc/libraries/dabble/)
 
 ---
 
 ## 📂 Estrutura do Repositório
+
+| Arquivo | Descrição |
+|----------|------------|
+| `roboControleRemoto.ino` | Código-fonte principal desenvolvido na Arduino IDE |
+| `schemaRoboControleRemoto.png` | Esquema elétrico do circuito de montagem do robô |
+
+---
+
+## ✅ Resultado
+
+<p align="center">
+  <img src="schemaRoboControleRemoto.jpg" alt="Esquema Elétrico do Robô" width="400"/><br/>
+  <em>Figura 1 — Esquema de conexões elétricas do robô.</em>
+</p>
+
+<p align="center">
+  <img src="./images/roboMontado.jpeg" alt="Esquema Elétrico do Robô Montado" width="400"/><br/>
+  <em>Figura 2 — Esquema de conexões elétricas no robô montado.</em>
+</p>
+
+<p align="center">
+  <img src="./images/montagem.jpeg" alt="Robô Montado" width="400"/><br/>
+  <em>Figura 3 — Robô Montado.</em>
+</p>
+
+---
+
+## </> Desenvolvimento
+
+📘 **Autor:** [Vitor Henrique Morais](https://github.com/Vhcmorais)  
+🏫 **Instituição:** Universidade Federal de Uberlândia — UFU  
+🧭 **Laboratório:** Automação, Sistemas Eletrônicos e Controle  
+
+<p align="center">
+  <img src="./images/robo_balao.png" alt="Robô Montado" width="150"/><br/>
+</p>
